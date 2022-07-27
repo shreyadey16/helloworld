@@ -21,6 +21,13 @@
 
     <maven.compiler.plugin.version>3.8.1</maven.compiler.plugin.version>
   </properties>
+  
+  <distributionManagement>
+   <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://54.234.1.199/:8081/nexus/content/repositories/snapshots</url>
+   </snapshotRepository>
+</distributionManagement>
 
   <build>
     <plugins>
