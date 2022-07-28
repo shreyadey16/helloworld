@@ -25,7 +25,7 @@
    <distributionManagement>
    <snapshotRepository>
       <id>nexus-snapshots</id>
-      <url>http://54.234.1.199:8081/nexus/content/repositories/maven-snapshots</url>
+      <url>http://34.235.155.205:8081/nexus/content/repositories/maven-snapshots</url>
    </snapshotRepository>
 </distributionManagement>
   <build>
@@ -70,7 +70,7 @@
    </executions>
    <configuration>
       <serverId>nexus</serverId>
-      <nexusUrl>http://54.234.1.199/:8081/nexus/</nexusUrl>
+      <nexusUrl>http://34.235.155.205:8081/nexus/</nexusUrl>
       <skipStaging>true</skipStaging>
    </configuration>
 </plugin>
